@@ -41,4 +41,11 @@
   color: #fff; /* สีขาว */
   padding: 10px; /* ระยะห่างภายใน */
   border-radius: 5px; /* มุมโค้ง */
+  
 }
+
+  /* เพิ่มเงาให้ภาพ */
+  .carousel-image {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* เงาด้านล่าง */
+    border-radius: 8px; /* ทำให้มุมภาพโค้งมน */
+  }
