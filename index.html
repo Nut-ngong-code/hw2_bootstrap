@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>หน้าแรก</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="js/bootstrap.js">
-    <link rel="stylesheet" href="js/bootstrap.bundle.js">
-</head>
-<body>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.js"></script>
+  </head>
+  <body>
     <head>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand">logo</a>
-                <!-- manu -->
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link">หน้าแรก</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">เนื้อหา</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">ติดต่อ</a></li>
-                </ul>
-            </div>
-        </nav>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fix-top ">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">logo</a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- manu -->
+          <div class="collapse navbar-collapse " id="navbarToggle">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">หน้าแรก</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">เนื้อหา</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">ติดต่อ</a>
+              </li>
+              <form class="d-flex">
+                <input type="text" class="form-control me-2" placeholder="ป้อนชื่อสถานที่">
+                <input type="submit" value="ค้นหา" class="btn btn-dark border border-while" >
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </head>
-    <main class="container">
-
-    </main>
-    <footer>
-
-    </footer>
-</body>
+    <main class="container"></main>
+    <footer></footer>
+  </body>
 </html>
