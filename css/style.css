@@ -41,11 +41,24 @@
   color: #fff; /* สีขาว */
   padding: 10px; /* ระยะห่างภายใน */
   border-radius: 5px; /* มุมโค้ง */
-  
 }
 
-  /* เพิ่มเงาให้ภาพ */
-  .carousel-image {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* เงาด้านล่าง */
-    border-radius: 8px; /* ทำให้มุมภาพโค้งมน */
-  }
+/* เพิ่มเงาให้ภาพ */
+.carousel-image {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* เงาด้านล่าง */
+  border-radius: 8px; /* ทำให้มุมภาพโค้งมน */
+}
+
+footer a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+footer a:hover {
+  color: white; /* เปลี่ยนสีเมื่อวางเมาส์ */
+}
+
+footer div:last-child {
+    text-align: center;
+    margin-top: 10px;
+}
