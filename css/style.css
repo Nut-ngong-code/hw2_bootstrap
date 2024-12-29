@@ -99,3 +99,17 @@ footer div:last-child {
     text-align: center;
     margin-top: 10px;
 }
+
+#highlight {
+  text-indent: 2em;
+  line-height: 1.6;
+  font-family: "Mitr", sans-serif;
+  font-weight: 700%;
+  font-style: normal;
+}
+
+section > span {
+  font-family: "Pridi", serif;
+  font-weight: 200;
+  font-style: normal;
+}
