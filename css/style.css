@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fugaz+One&family=Mitr:wght@200;300;400;500;600;700&family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+.mitr-extralight {
+  font-family: "Mitr", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.mitr-light {
+  font-family: "Mitr", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.mitr-regular {
+  font-family: "Mitr", sans-serif;
+  font-weight: 400%;
+  font-style: normal;
+}
+
+.mitr-medium {
+  font-family: "Mitr", sans-serif;
+  font-weight: 500%;
+  font-style: normal;
+}
+
+.mitr-semibold {
+  font-family: "Mitr", sans-serif;
+  font-weight: 600%;
+  font-style: normal;
+}
+
+.mitr-bold {
+  font-family: "Mitr", sans-serif;
+  font-weight: 700%;
+  font-style: normal;
+}
+
+.pridi-extralight {
+  font-family: "Pridi", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.pridi-light {
+  font-family: "Pridi", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.pridi-regular {
+  font-family: "Pridi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pridi-medium {
+  font-family: "Pridi", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.pridi-semibold {
+  font-family: "Pridi", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.pridi-bold {
+  font-family: "Pridi", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.custom-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* สีเท่าจาง */
+  color: #fff; /* สีขาว */
+  padding: 10px; /* ระยะห่างภายใน */
+  border-radius: 5px; /* มุมโค้ง */
+}
+
+/* เพิ่มเงาให้ภาพ */
+.carousel-image {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* เงาด้านล่าง */
+  border-radius: 8px; /* ทำให้มุมภาพโค้งมน */
+}
+
+footer a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+footer a:hover {
+  color: white; /* เปลี่ยนสีเมื่อวางเมาส์ */
+}
+
+footer div:last-child {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#highlight {
+  text-indent: 2em;
+  line-height: 1.6;
+  font-family: "Mitr", sans-serif;
+  font-weight: 700%;
+  font-style: normal;
+}
+
+section > span {
+  font-family: "Pridi", serif;
+  font-weight: 200;
+  font-style: normal;
+}

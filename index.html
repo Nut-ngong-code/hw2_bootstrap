@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>หน้าแรก</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="mitr-regular">
+    <head>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand">
+            <img
+              src="img/logo_profile_2.jpg"
+              alt="logo"
+              class="img-fluid border rounded-3"
+              style="height: 40px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggle"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- manu -->
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ms-2">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link text-light">หน้าแรก</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link text-light">เนื้อหา</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link text-light">ติดต่อ</a>
+              </li>
+            </ul>
+            <form class="d-flex w-75 ms-5">
+              <input
+                type="text"
+                class="form-control me-2"
+                placeholder="ป้อนชื่อสถานที่"
+              />
+              <input
+                type="submit"
+                value="ค้นหา"
+                class="btn btn-dark border border-while"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+    </head>
+    <main class="my-5">
+      <!-- Hero Section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 m-auto">
+            <a href="about.html">
+              <div class="carousel slide" id="slider1" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <button
+                    data-bs-target="#slider1"
+                    data-bs-slide-to="0"
+                  ></button>
+                  <button
+                    class="active"
+                    data-bs-target="#slider1"
+                    data-bs-slide-to="1"
+                  ></button>
+                  <button
+                    data-bs-target="#slider1"
+                    data-bs-slide-to="2"
+                  ></button>
+                  <button
+                    data-bs-target="#slider1"
+                    data-bs-slide-to="3"
+                  ></button>
+                </ol>
+                <div class="carousel-inner border rounded-3 carousel-image">
+                  <div class="carousel-item">
+                    <img
+                      src="img/Charoen-Beach.jpg"
+                      alt="แหลมเจริญ"
+                      class="d-block w-100"
+                    />
+                    <div class="carousel-caption custom-caption">
+                      <h4>แหลมเจริญ</h4>
+                      <p>
+                        เป็นทะเลที่อยู่ติดกับเมืองระยองมากๆ
+                        เดินทางสะดวกมีของกินมากมาย
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item active">
+                    <img
+                      src="img/เสม็ด.jpg"
+                      alt="เสม็ด"
+                      class="d-block w-100"
+                    />
+                    <div class="carousel-caption custom-caption">
+                      <h4>เกาะเสม็ด</h4>
+                      <p>เกาะสวย หาดขาว นับว่าไม่เกินจริงกับคำๆ ณ เกาะเสม็ด</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/dokkay.jpg"
+                      alt="ดอกกราย"
+                      class="d-block w-100"
+                    />
+                    <div class="carousel-caption custom-caption">
+                      <h4>อ่างเก็บน้ำดอกกราย</h4>
+                      <p>
+                        อ่างเก็บน้ำประจำจังหวัดที่มีอากาศดีมากๆ
+                        และจุดนั่งชิวลมเย็นๆอีกด้วย
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/suan_son.jpg"
+                      alt="สวนสน"
+                      class="d-block w-100"
+                    />
+                    <div class="carousel-caption custom-caption">
+                      <h4>หาดสวนสน</h4>
+                      <p>
+                        หาดที่มีแต่ต้นสนยาวตลิดริมหาดทำให้บรรยาการดี
+                        เหมาะกับการนั่งเล่น
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    data-bs-slide="prev"
+                    data-bs-target="#slider1"
+                  >
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    data-bs-slide="next"
+                    data-bs-target="#slider1"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Grid -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-sm-12 border-bottom rounded">
+            <h2>ที่ท่องเที่ยวยอดนิยม</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-3 my-3">
+            <div class="ratio ratio-1x1">
+              <img
+                src="img/สวนพฤกษศาสตร์ระยอง.jpg"
+                alt="สวนพฤกษศาสตร์ระยอง"
+                class="img-fluid object-fit-cover rounded shadow-sm"
+              />
+            </div>
+            <div class="text-center my-1">
+              <h5 class="mb-2 mt-3">สวนพฤกษศาสตร์ระยอง</h5>
+              <p>ตำบลชากพง อำเภอแกลง จังหวัดระยอง</p>
+              <p>เปิดให้เข้าชม : 08.30-16.30 น.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3">
+            <div class="ratio ratio-1x1">
+              <img
+                src="img/yomjinda.jpg"
+                alt="ยมจินดา"
+                class="img-fluid object-fit-cover rounded shadow-sm"
+              />
+            </div>
+            <div class="text-center my-1">
+              <h5 class="mb-2 mt-3">ถนนยมจินดา</h5>
+              <p>ถ.ภักดี อำเภอเมือง จังหวัดระยอง</p>
+              <p>เปิดทุกวัน 10.00 - 20.00 น.</p>
+              <p>เสาร์ - อาทิตย์ 18.00 - 22.00 น</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3">
+            <div class="ratio ratio-1x1">
+              <img
+                src="img/ทุ่งโปรงทอง.jpg"
+                alt="ทุ่งโปรงทอง"
+                class="img-fluid object-fit-cover rounded shadow-sm"
+              />
+            </div>
+            <div class="text-center my-1">
+              <h5 class="mb-2 mt-3">ทุ่งโปรงทอง</h5>
+              <p>ตำบลปากน้ำกระแส อำเภอแกลง จังหวัดระยอง</p>
+              <p>เปิดทุกวัน 6:00 - 18:00 น.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 my-3">
+            <div class="ratio ratio-1x1">
+              <img
+                src="img/แหลมแม่พิมพ์.jpg"
+                alt="แหลมแม่พิมพ์"
+                class="img-fluid object-fit-cover rounded shadow-sm"
+              />
+            </div>
+            <div class="text-center my-1">
+              <h5 class="mb-2 mt-3">แหลมเจริญ</h5>
+              <p>ถนนเลียบชายฝั่ง ตำบลเนินพระ อำเภอเมืองระยอง จังหวัดระยอง</p>
+              <p>เปิดทุกวัน จันทร์ - อาทิตย์</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer style="font-size: 80%">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-bottom">
+        <div class="container-fluid text-light justify-content-center">
+          <div class="row my-3">
+            <div class="col-md-4">
+              <h5>ติดต่อเรา</h5>
+              <p>Email: 66160022@go.buu.ac.th</p>
+              <p>Phone: 091-xxx-xxxx</p>
+              <p>
+                Form:
+                <a href="contact.html" class="border-bottom">ฟอร์มติดต่อ</a>
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h5>ลิงก์เมนูที่สำคัญ</h5>
+              <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarfooter"
+              >
+                <span class="text-light navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarfooter">
+                <ul class="navbar-nav text-light">
+                  <li class="nav-item">
+                    <a class="nav-link text-light border-end" href="index.html"
+                      >หน้าแรก</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light border-end" href="about.html"
+                      >เนื้อหา</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="contact.html"
+                      >ติดต่อ</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 mt-0">
+              <h5>ช่องทางติดตาม</h5>
+              <p>Facebook: Shutter Tour</p>
+              <p>Line: @ShutterTour</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2024 Shutter Tour</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>

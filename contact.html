@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ติดต่อเรา</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="mitr-regular">
+    <head>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand">
+            <img
+              src="img/logo_profile_2.jpg"
+              alt="logo"
+              class="img-fluid border rounded-3"
+              style="height: 40px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggle"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- manu -->
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ms-2">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">หน้าแรก</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">เนื้อหา</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">ติดต่อ</a>
+              </li>
+            </ul>
+            <form class="d-flex w-50 ms-5">
+              <input
+                type="text"
+                class="form-control me-2"
+                placeholder="ป้อนชื่อสถานที่"
+              />
+              <input
+                type="submit"
+                value="ค้นหา"
+                class="btn btn-dark border border-while"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+    </head>
+    <main class="container">
+      <div class="row">
+        <div class="col-sm-12 my-3 border-bottom mb-2 rounded text-center">
+          <h3>ข้อมูลเกี่ยวกับเรา</h3>
+        </div>
+        <div class="col-sm-12 col-md-6 ps-5">
+          <div class="col-sm-12 border-bottom my-3">
+            <h5>ช่องทางติดต่อ</h5>
+          </div>
+          <div class="border p-3 rounded shadow">
+            <div class="border-bottom" style="font-size: 80%">
+              <p>Email : 66160022@go.buu.ac.th</p>
+              <p>Phone : 091-xxx-xxxx</p>
+            </div>
+            <div class="my-2">
+              <h6>Social Media</h6>
+              <div class="mt-3" style="font-size: 80%">
+                <p>Facebook : Shutter Tour</p>
+                <p>Line : @Shutter Tour</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 ps-5">
+          <div class="col-sm-12 border-bottom my-3">
+            <h5>ติดต่อเรา</h5>
+          </div>
+          <form
+            action="#"
+            method="post"
+            role="form"
+            class="border p-3 rounded shadow"
+          >
+            <div class="form-group">
+              <label for="full_name" class="mt-3 mb-1">ชื่อ-นามสกุล*</label>
+              <input
+                type="text"
+                class="form-control"
+                id="full_name"
+                style="font-size: 80%"
+                required
+                minlength="2"
+                maxlength="100"
+                placeholder="กรอก ชื่อ-นามสกุล"
+              />
+              <label for="tel" class="mt-3 mb-1">เบอร์โทรศัพท์*</label>
+              <input
+                class="form-control"
+                type="tel"
+                id="tel"
+                name="tel"
+                style="font-size: 80%"
+                required
+                pattern="^0[6-9][0-9]{8}$"
+                placeholder="091xxxxxxx"
+              />
+              <label for="Email" class="mt-3 mb-1">Email*</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Email"
+                style="font-size: 80%"
+                required
+                minlength="2"
+                maxlength="100"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                placeholder="กรอก Email"
+              />
+              <label for="message" class="mt-3 mb-1">ข้อความ*</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Email"
+                style="font-size: 80%"
+                required
+                min="10"
+                rows="5"
+                placeholder="ข้อความที่ต้องการจะติดต่อ"
+              />
+              <button type="submit" class="btn btn-success my-3 rounded">
+                ส่งข้อความ
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer style="font-size: 80%" class="mt-5">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-bottom">
+        <div class="container-fluid text-light justify-content-center">
+          <div class="row my-3">
+            <div class="col-md-4">
+              <h5>ติดต่อเรา</h5>
+              <p>Email: 66160022@go.buu.ac.th</p>
+              <p>Phone: 091-xxx-xxxx</p>
+              <p>
+                Form:
+                <a href="contact.html" class="border-bottom">ฟอร์มติดต่อ</a>
+              </p>
+            </div>
+            <div class="col-md-4">
+              <h5>ลิงก์เมนูที่สำคัญ</h5>
+              <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarfooter"
+              >
+                <span class="text-light navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarfooter">
+                <ul class="navbar-nav text-light">
+                  <li class="nav-item">
+                    <a class="nav-link text-light border-end" href="index.html"
+                      >หน้าแรก</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light border-end" href="about.html"
+                      >เนื้อหา</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="contact.html"
+                      >ติดต่อ</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 mt-0">
+              <h5>ช่องทางติดตาม</h5>
+              <p>Facebook: Shutter Tour</p>
+              <p>Line: @ShutterTour</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2024 Shutter Tour</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
