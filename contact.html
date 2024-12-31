@@ -62,18 +62,18 @@
         <div class="col-sm-12 my-3 border-bottom mb-2 rounded text-center">
           <h3>ข้อมูลเกี่ยวกับเรา</h3>
         </div>
-        <div class="col-sm-12 col-md-4 ps-5">
+        <div class="col-sm-12 col-md-6 ps-5">
           <div class="col-sm-12 border-bottom my-3">
             <h5>ช่องทางติดต่อ</h5>
           </div>
           <div class="border p-3 rounded shadow">
-            <div class="border-bottom" style="font-size: 80%;">
+            <div class="border-bottom" style="font-size: 80%">
               <p>Email : 66160022@go.buu.ac.th</p>
               <p>Phone : 091-xxx-xxxx</p>
             </div>
             <div class="my-2">
               <h6>Social Media</h6>
-              <div class="mt-3" style="font-size: 80%;">
+              <div class="mt-3" style="font-size: 80%">
                 <p>Facebook : Shutter Tour</p>
                 <p>Instagram : Shutter Tour</p>
                 <p>Line : @Shutter Tour</p>
@@ -81,24 +81,65 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 ps-5">
+        <div class="col-sm-12 col-md-6 ps-5">
           <div class="col-sm-12 border-bottom my-3">
             <h5>ติดต่อเรา</h5>
           </div>
           <form
-            action="/submit"
+            action="#"
             method="post"
             role="form"
             class="border p-3 rounded shadow"
           >
             <div class="form-group">
-              <label for="full_name">ชื่อ-นามสกุล*</label>
+              <label for="full_name" class="mt-3 mb-1">ชื่อ-นามสกุล*</label>
               <input
                 type="text"
                 class="form-control"
                 id="full_name"
-                placeholder="กรอกชื่อ-นามสกุล"
+                style="font-size: 80%"
+                required
+                minlength="2"
+                maxlength="100"
+                placeholder="กรอก ชื่อ-นามสกุล"
               />
+              <label for="tel" class="mt-3 mb-1">เบอร์โทรศัพท์*</label>
+              <input
+                class="form-control"
+                type="tel"
+                id="tel"
+                name="tel"
+                style="font-size: 80%"
+                required
+                pattern="^0[6-9][0-9]{8}$"
+                placeholder="091xxxxxxx"
+              />
+              <label for="Email" class="mt-3 mb-1">Email*</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Email"
+                style="font-size: 80%"
+                required
+                minlength="2"
+                maxlength="100"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                placeholder="กรอก Email"
+              />
+              <label for="message" class="mt-3 mb-1">ข้อความ*</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Email"
+                style="font-size: 80%"
+                required
+                min="10"
+                rows="5"
+                placeholder="ข้อความที่ต้องการจะติดต่อ"
+              />
+              <button type="submit" class="btn btn-success my-3 rounded">
+                ส่งข้อความ
+              </button>
             </div>
           </form>
         </div>
