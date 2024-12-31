@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>หน้าแรก</title>
+    <title>ติดต่อเรา</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="css/style.css" />
@@ -57,20 +57,66 @@
         </div>
       </nav>
     </head>
-    <main class="container"></main>
-    <footer style="font-size: 80%;">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-bottom">
-          <div class="container text-light">
-            <div class="row col-md-4 mt-3">
-                <h5>ติดต่อเรา</h5>
-                <p>Email: 66160022@go.buu.ac.th</p>
-                <p>Phone: 091-xxx-xxxx</p>
+    <main class="container">
+      <div class="row">
+        <div class="col-sm-12 my-3 border-bottom mb-2 rounded text-center">
+          <h3>ข้อมูลเกี่ยวกับเรา</h3>
+        </div>
+        <div class="col-sm-12 col-md-4 ps-5">
+          <div class="col-sm-12 border-bottom my-3">
+            <h5>ช่องทางติดต่อ</h5>
+          </div>
+          <div class="border p-3 rounded shadow">
+            <div class="border-bottom" style="font-size: 80%;">
+              <p>Email : 66160022@go.buu.ac.th</p>
+              <p>Phone : 091-xxx-xxxx</p>
             </div>
-            <div class="text-center mt-3">
-              <p>&copy; 2024 Shutter Tour</p>
+            <div class="my-2">
+              <h6>Social Media</h6>
+              <div class="mt-3" style="font-size: 80%;">
+                <p>Facebook : Shutter Tour</p>
+                <p>Instagram : Shutter Tour</p>
+                <p>Line : @Shutter Tour</p>
+              </div>
             </div>
           </div>
-        </nav>
-      </footer>
+        </div>
+        <div class="col-sm-12 col-md-4 ps-5">
+          <div class="col-sm-12 border-bottom my-3">
+            <h5>ติดต่อเรา</h5>
+          </div>
+          <form
+            action="/submit"
+            method="post"
+            role="form"
+            class="border p-3 rounded shadow"
+          >
+            <div class="form-group">
+              <label for="full_name">ชื่อ-นามสกุล*</label>
+              <input
+                type="text"
+                class="form-control"
+                id="full_name"
+                placeholder="กรอกชื่อ-นามสกุล"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer style="font-size: 80%">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-bottom">
+        <div class="container text-light">
+          <div class="row col-md-4 mt-3">
+            <h5>ติดต่อเรา</h5>
+            <p>Email: 66160022@go.buu.ac.th</p>
+            <p>Phone: 091-xxx-xxxx</p>
+          </div>
+          <div class="text-center mt-3">
+            <p>&copy; 2024 Shutter Tour</p>
+          </div>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
